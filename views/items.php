@@ -8,59 +8,67 @@
 			</div>
 		</form>
 		<ul class="nav menu">
-			<li class="activeBg">
-				<a href="dashboard">
+			<li class="activeBg"  >
+				<a href="dashboard" style="text-decoration: none; color: white;">
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
 					Tableau de bord
 				</a>
 			</li>
-			<li  style="texton: none-decorati; color: #e28743;" class="parent ">
+			<li   class="parent ">
 				<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+				<div style="text-decoration: none; color: #e28743;"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg>Transaction</div> 
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
 <li>
 						<a class="" href="reservation">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
 							Reservations
+							</div>
 						</a>
 					</li>
 
 
 					<li>
 						<a class="" href="new">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
 							Nouveau
+							</div>
 						</a>
 					</li>
 					<li>
 						<a class="" href="borrow">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
 							Materials empruntés
+							</div>
 						</a>
 					</li>
 					<li>
 						<a class="" href="return">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
 							Materiels retournés
+							</div>
 						</a>
 					</li>
 				</ul>
 			</li>
 			<?php if($_SESSION['admin_type'] == 1){ ?>
-			<li class="active">
-				<a href="#">
+			<li class="activeBg">
+				<a href="#" style="text-decoration: none; color: white;">
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
@@ -69,35 +77,43 @@
 			</li>
 			<li>
 				<a href="members">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
 					Emprunteur
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="room">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
 					Salle
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="inventory">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
 					Inventaire
+			</div>
 				</a>
 			</li>
 			
 			<li>
 				<a href="user">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
 					Utilisateur
+			</div>
 				</a>
 			</li>
 			<?php 
@@ -111,11 +127,11 @@
 	<div class="col-sm-9 col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-3 main">
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 				<li class="active">Materiel</li>
 			</ol>
 			<div class="breadcrumb">
-				<button class="btn btn-primary col-sm-offset-10 add_equipment">
+				<button class="btn activeBg col-sm-offset-10 add_equipment" style="text-decoration: none; color: white;">
 					<svg class="glyph stroked plus sign">
 						<use xlink:href="#stroked-plus-sign"/>
 					</svg> &nbsp;
@@ -177,10 +193,9 @@
 						<option>Écran</option>
 						<option>Projecteur</option>
 						<option>Télécommande</option>
-						<option>Écran DLP</option>
 						<option>Climatisation</option>
 						<option>AVR</option>
-						<option>Extension</option>
+						<option>Cles USB</option>
 						<option>UPS</option>
 						<option>Routeur</option>
 						<option>Table</option>
@@ -193,7 +208,7 @@
 				</div>
 				
 				<div class="form-group">
-					<label>Quantit'</label>
+					<label>Quantite</label>
 					<input type="number" name="e_stock" class="form-control" min="1" required>
 				</div>
 				<div class="form-group hide">
@@ -219,7 +234,7 @@
 				</div>
 				
 				<div class="form-group">
-					<label>MR</label>
+					<label>Mr</label>
 					<input type="text" name="e_mr" class="form-control" required>
 				</div>
 				
@@ -242,7 +257,7 @@
 							</button>
 						</div>
 						<div class="col-md-6 col-sm-12 col-xs-12">
-							<button class="btn btn-primary btn-block" type="submit">
+							<button class="btn btn-success btn-block" type="submit">
 							AJOUTER
 								<i class="fa fa-check"></i>
 							</button>

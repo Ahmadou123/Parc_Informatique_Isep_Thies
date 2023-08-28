@@ -11,47 +11,57 @@ include 'header.php';
 	<ul class="nav menu">
 		<li class="">
 			<a href="dashboard">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
 				Tableau de bord
+				</div>
 			</a>
 		</li>
-		<li class="parent active">
-			<a href="#sub-item-1" data-toggle="collapse">
+		<li class="parent activeBg">
+			<a href="#sub-item-1" data-toggle="collapse" style="text-decoration: none; color: white;">
 					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
 				</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
 					<a class="" href="reservation">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
 						Reservations
+						</div>
 					</a>
 				</li>
 				<li class="active">
 					<a class="" href="#">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
 						Nouveau
+						</div>
 					</a>
 				</li>
 				<li>
 					<a class="" href="borrow">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
 						Article empruntées
+						</div>
 					</a>
 				</li>
 				<li>
 					<a class="" href="return">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
 						Article retournées
+                       </div>
 					</a>
 				</li>
 			</ul>
@@ -59,43 +69,53 @@ include 'header.php';
 		<?php if($_SESSION['admin_type'] == 1){ ?>
 		<li>
 			<a href="items">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
 				Article
+				</div>
 			</a>
 		</li>
 		<li>
 			<a href="members">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
 				Emprunter
+				</div>
 			</a>
 		</li>
 		<li>
 			<a href="room">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
 				Salle
+				</div>
 			</a>
 		</li>
 		<li>
 			<a href="inventory">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
 				Inventaire
+				</div>
 			</a>
 		</li>
 		
 		<li>
 			<a href="user">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
 				Utilisateur
+				</div>
 			</a>
 		</li>
 		<?php 
@@ -109,7 +129,7 @@ include 'header.php';
 
 	<div class="row">
 		<ol class="breadcrumb">
-			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+			<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 			<li class="active">Emprunter</li>
 		</ol>
 				
@@ -148,7 +168,7 @@ include 'header.php';
 								</div>
 								<div class="form-group">
 									<div class="pull-right">
-										<button class="btn btn-primary" type="submit">
+										<button class="btn couleurIsep" type="submit" style="text-decoration: none; color: white;" >
 										Confirmer l'emprunt
 											<i class="fa fa-chevron-right"></i>
 										</button>

@@ -88,10 +88,19 @@ label {
 }
 .activeBg{
     background-color: #e28743;
+    text-decoration: none;
+    color: white;
     
+}
+.couleurleger{
+    background-color: #e46d11;
 }
 .toast {
     box-shadow: none !important;
+}
+.activebg{
+    text-decoration: none;
+     color: white;
 }
 
 .couleurIsep{

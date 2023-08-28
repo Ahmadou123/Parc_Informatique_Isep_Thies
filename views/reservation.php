@@ -10,23 +10,27 @@
 		<ul class="nav menu">
 			<li class="">
 				<a href="dashboard">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
 					Tableau de bord
+					</div>
 				</a>
 			</li>
-			<li class="parent active">
-				<a href="#sub-item-1" data-toggle="collapse">
+			<li class="parent activeBg">
+				<a href="#sub-item-1" data-toggle="collapse" style="text-decoration: none; color: white;">
 					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li class="active">
 						<a class="" href="reservation">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
 							Reservations
+							</div>
 						</a>
 					</li>
 					<li>
@@ -51,10 +55,12 @@
 					</li>
 					<li>
 						<a class="" href="return">
+						<div style="color: #e28743;">
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
 							Articles retournés
+                             </div>
 						</a>
 					</li>
 				</ul>
@@ -62,43 +68,53 @@
 			<?php if($_SESSION['admin_type'] == 1){ ?>
 			<li>
 				<a href="items">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
 					Article
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="members">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
 					Emprunteur
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="room">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
 					Salle
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="inventory">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
 					Inventory
+					</div>
 				</a>
 			</li>
 			
 			<li>
 				<a href="user">
+				<div style="color: #e28743;">
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
 					Utilisateur
+					</div>
 				</a>
 			</li>
 			<?php 
@@ -113,7 +129,7 @@
 		
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 				<li class="active">Reservation</li>
 			</ol>
 		</div><!--/.row-->
@@ -121,8 +137,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav nav-pills">
-					<li class="active"><a href="#pending" data-toggle="tab"><i class="fa fa-list"></i>&nbsp;&nbsp;Réservation en attente</a></li>
-					<li><a href="#reserved" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Réservation acceptée</a></li>
+					<li class="activeBg"><a href="#pending" data-toggle="tab" style="text-decoration: none; color: white;"><i class="fa fa-list"></i>&nbsp;&nbsp;Réservation en attente</a></li>
+					<li><a href="#reserved" data-toggle="tab"   style="color: #e28743;"><i class="fa fa-question"></i>&nbsp;&nbsp;Réservation acceptée</a></li>
 				</ul>
 			</div>
 		</div>

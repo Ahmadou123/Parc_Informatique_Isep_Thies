@@ -11,47 +11,57 @@ include 'header.php';
 	<ul class="nav menu">
 		<li class="">
 			<a href="dashboard">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
 				Tableau de bord
+				</div>
 			</a>
 		</li>
 		<li class="parent ">
 			<a href="#sub-item-1" data-toggle="collapse">
-					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
+			<div style="color: #e28743;"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg>Transaction</div> 
 				</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
 					<a class="" href="reservation">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
 						Reservations
+						</div>
 					</a>
 				</li>
 				<li>
 					<a class="" href="new">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						Niveau
+						Nouveau
+					</div>
 					</a>
 				</li>
 				<li>
 					<a class="" href="borrow">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Article empruntées
+						Materiels empruntées
+						</div>
 					</a>
 				</li>
 				<li>
 					<a class="" href="return">
+					<div style="color: #e28743;">
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Article retournés
+						Materiels retournés
+						</div>
 					</a>
 				</li>
 			</ul>
@@ -59,14 +69,16 @@ include 'header.php';
 		<?php if($_SESSION['admin_type'] == 1){ ?>
 		<li>
 			<a href="items">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Article
+				Materiel
+				</div>
 			</a>
 		</li>
-		<li class="active">
-			<a href="#">
+		<li class="activeBg">
+			<a href="#" style="text-decoration: none; color: white;">
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
@@ -75,34 +87,33 @@ include 'header.php';
 		</li>
 		<li>
 			<a href="room">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
 				Salle
+				</div>
 			</a>
 		</li>
 		<li>
 			<a href="inventory">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
 				Inventaire
+				</div>
 			</a>
 		</li>
-		<li>
-			<a href="report">
-				<svg class="glyph stroked line-graph">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
-				</svg>
-				Graphique
-			</a>
-		</li>
+		
 		<li>
 			<a href="user">
+			<div style="color: #e28743;">
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
 				Utilisateur
+				</div>
 			</a>
 		</li>
 			<?php 
@@ -115,23 +126,23 @@ include 'header.php';
 <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 main">	
 	<div class="row">
 		<ol class="breadcrumb">
-			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+			<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"  style="color: #e28743;"><use xlink:href="#stroked-home"></use></svg></a></li>
 			<li class="active">Emprunteur</li>
 		</ol>
 		<div class="breadcrumb">
-			<button class="btn btn-primary col-sm-offset-7 add_member">
+			<button class="btn activeBg col-sm-offset-7 add_member" style="text-decoration: none; color: white;">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
 				Téléverser le fichier CSV
 			</button>
-			<button class="btn btn-primary add_student">
+			<button class="btn activeBg add_student" style="text-decoration: none; color: white;">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
 				Ajouter un étudiant
 			</button>
-			<button class="btn btn-primary add_faculty">
+			<button class="btn activeBg add_faculty" style="text-decoration: none; color: white;">
 				<svg class="glyph stroked plus sign">
 					<use xlink:href="#stroked-plus-sign"/>
 				</svg>
@@ -169,7 +180,7 @@ include 'header.php';
 		<div class="container-fluid">
 			<h4 class="alert bg-success">Ajouter un membre</h4>
 			<div class="form-group">
-				<a class="btn btn-primary btn-block" target="_blank" download="member_format.csv" href="../assets/downloadables/member_format.csv">
+				<a class="btn activeBg btn-block" target="_blank" download="member_format.csv" href="../assets/downloadables/member_format.csv">
 					<i class="fa fa-download"></i>
 					Format de téléchargement
 				</a>

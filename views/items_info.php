@@ -9,7 +9,7 @@
 		</form>
 		<ul class="nav menu">
 			<li class="">
-				<a href="dashboard">
+				<a href="dashboard" style="color: #e28743;">
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
@@ -17,13 +17,13 @@
 				</a>
 			</li>
 			<li style="texton: none-decorati; color: #e28743;" class="parent ">
-				<a href="#sub-item-1" data-toggle="collapse">
+				<a href="#sub-item-1" data-toggle="collapse" style="color: #e28743;">
 					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
 <li>
-						<a class="" href="reservation">
+						<a class="" href="reservation" style="color: #e28743;">
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
@@ -33,42 +33,42 @@
 
 
 					<li>
-						<a class="" href="new">
+						<a class="" href="new" style="color: #e28743;">
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							Niveau
+							Nouveau
 						</a>
 					</li>
 					<li>
-						<a class="" href="borrow">
+						<a class="" href="borrow" style="color: #e28743;">
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Article Empruntées
+							Materiel Empruntées
 						</a>
 					</li>
 					<li>
-						<a class="" href="return">
+						<a class="" href="return" style="color: #e28743;">
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-						article retournées
+						Materiel retournées
 						</a>
 					</li>
 				</ul>
 			</li>
 			<?php if($_SESSION['admin_type'] == 1){ ?>
-			<li class="active">
+			<li class="activeBg">
 				<a href="#">
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Article
+					Materiel
 				</a>
 			</li>
 			<li>
-				<a href="members">
+				<a href="members" style="color: #e28743;">
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
@@ -76,7 +76,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="room">
+				<a href="room" style="color: #e28743;">
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
@@ -84,7 +84,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="inventory">
+				<a href="inventory" style="color: #e28743;">
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
@@ -93,7 +93,7 @@
 			</li>
 			
 			<li>
-				<a href="user">
+				<a href="user" style="color: #e28743;">
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
@@ -112,9 +112,9 @@
 		
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class=""><a href="items">Article</a></li>
-				<li class="active">Informations sur les articles</li>
+				<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li class=""><a href="items">Materiel</a></li>
+				<li class="active">Informations sur les Materiels</li>
 			</ol>
 			<div class="breadcrumb">
 				<button class="btn btn-primary item-add" type="button">
@@ -123,7 +123,7 @@
 				</button>
 				<button class="btn btn-primary item-edit" type="button">
 					<i class="fa fa-edit"></i>
-					Modifier l'article
+					Modifier Materiel
 				</button>
 				<button class="btn btn-primary item-change" type="button">
 					<i class="fa fa-arrows-alt"></i>

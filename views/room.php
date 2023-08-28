@@ -126,7 +126,7 @@ include 'header.php';
 <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 main">	
 	<div class="row">
 		<ol class="breadcrumb">
-			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+			<li><a href="dashboard" style="color: #e28743;"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 			<li class="active">Salles</li>
 		</ol>
 		<div class="breadcrumb">
