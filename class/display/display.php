@@ -72,7 +72,7 @@
 										<li><a href="javascript:;" class="edit-member" ><i class="fa fa-edit"></i> Edit</a></li>
 										<li>'.$status.'</li>
 										<li><a href="member_profile?id='.$value['id'].'&name='.$value['m_fname'].' '.$value['m_lname'].'"><i class="fa fa-user"></i> Borrower Profile</a></li>
-									</ul>
+									</ul> 
 								</div>';
 
 					$data['data'][] = array($value['m_school_id'],$value['m_fname'].' '.$value['m_lname'],$value['m_gender'],$value['m_contact'],$value['m_department'],$value['m_year_section'],$value['m_type'],$button,$value['m_fname'],$value['m_lname'],$value['id']);
