@@ -31,18 +31,18 @@
 			<div class="col-md-12">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 					<div class="login-panel panel panel-default">
-						<div class="panel-heading">Système de gestion de parc informatique</div>
+						<div class="panel-heading" style="font-weight: 900;">Gestion de parc informatique</div>
 						<div class="panel-body">
 							<form class="frm_index">
 								<fieldset>
 									<div class="form-group">
-										<input class="form-control couleurIsep" placeholder="Username" name="username" type="username" autofocus="" autocomplete="off">
+										<input class="form-control " placeholder="Username" name="username" type="username" autofocus="" autocomplete="off">
 									</div>
 									<div class="form-group">
-										<input class="form-control couleurIsep" placeholder="Password" name="password" type="password" value="">
+										<input class="form-control " placeholder="Password" name="password" type="password" value="">
 									</div>
 									<br>
-									<button class="btn couleurIsep btn-block">Se connecter</button>
+									<button class="btn couleurIsep btn-block" style="color: white;">Se connecter</button>
 									<br>
 									<a class="linkColor" href="./member/login">Aller à la page du membre</a>
 								</fieldset>
