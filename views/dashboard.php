@@ -246,8 +246,6 @@
 								<td><strong>Description</strong></td>
 								<td><strong>Quantité</strong></td>
 								<td><strong>Status</strong></td>
-								
-								
 							</tr>
 						</thead>
 					</table>

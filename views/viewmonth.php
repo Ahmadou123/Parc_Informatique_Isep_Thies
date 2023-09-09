@@ -123,7 +123,7 @@
 							<li><a href="#old" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Encien</a></li>
 							<li><a href="#lost" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Perdu</a></li>
 							<li><a href="#damaged" data-toggle="tab"><i class="fa fa-file-code-o"></i>&nbsp;&nbsp;Endommagé</a></li>
-							<li><a href="#pulledout" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Articles au total</a></li>
+							<li><a href="#pulledout" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;materiels au total</a></li>
 							<li><a href="#transferred" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Transféré</a></li>
 							<li><a href="#report2" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Emprunté</a></li>
 						</ul>
@@ -153,8 +153,8 @@
 											<th>Model</th>
 											<th>Categorie</th>
 											<th>Marque</th>
-											<th>Nombre d'articles</th>
-											<th>Nombre d'articles restants</th>
+											<th>Nombre de materiels</th>
+											<th>Nombre de materiels restants</th>
 										</tr>
 									</thead>
 								</table>
@@ -166,7 +166,7 @@
 											<th>Model</th>
 											<th>Categorie</th>
 											<th>Marque</th>
-											<th>Nombre d'articles</th>
+											<th>Nombre de materiels</th>
 											<th>Remarques</th>
 										</tr>
 									</thead>
@@ -179,7 +179,7 @@
 											<th>Model</th>
 											<th>Categorie</th>
 											<th>Marque</th>
-											<th>Nombre d'articles</th>
+											<th>Nombre de materiels</th>
 											<th>Remarques</th>
 										</tr>
 									</thead>
@@ -192,7 +192,7 @@
 											<th>Model</th>
 											<th>Categorie</th>
 											<th>Marque</th>
-											<th>Nombre d'articles</th>
+											<th>Nombre de materiels</th>
 											<th>Remarques</th>
 										</tr>
 									</thead>
@@ -217,7 +217,7 @@
 											<th>Model</th>
 											<th>Categorie</th>
 											<th>Marque</th>
-											<th>Nombre d'articles</th>
+											<th>Nombre de materiels</th>
 											<th>Salle</th>
 										</tr>
 									</thead>
@@ -251,10 +251,10 @@
 										</div>
 									<hr/>
 										 
-											<th>Borrower</th>
-											<th>Items</th>
-											<th>Borrowed Date</th>
-											<th>Returned Date</th>
+											<th>Emprunteur</th>
+											<th>Materiels</th>
+											<th>Date de l'emprunt</th>
+											<th>Date retournés</th>
 											
 										</tr>
 									</thead>

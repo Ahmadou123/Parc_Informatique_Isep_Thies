@@ -49,7 +49,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Articles empruntés
+							Materiels empruntés
 							</div>
 						</a>
 					</li>
@@ -59,7 +59,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Articles retournés
+							Materiels retournés
                              </div>
 						</a>
 					</li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Article
+					Materiel
 					</div>
 				</a>
 			</li>
@@ -137,8 +137,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav nav-pills">
-					<li class="activeBg"><a href="#pending" data-toggle="tab" style="text-decoration: none; color: white;"><i class="fa fa-list"></i>&nbsp;&nbsp;Réservation en attente</a></li>
-					<li><a href="#reserved" data-toggle="tab"   style="color: #e28743;"><i class="fa fa-question"></i>&nbsp;&nbsp;Réservation acceptée</a></li>
+					<li ><a href="#pending" data-toggle="tab" style="text-decoration: none; color: white;" class="activeBg"><i class="fa fa-list"></i>&nbsp;&nbsp;Réservation en attente</a></li>
+					<li><a class="activeBg" href="#reserved" data-toggle="tab"><i class="fa fa-question" style="color: #e28743;"></i>&nbsp;&nbsp;Réservation acceptée</a></li>
 				</ul>
 			</div>
 		</div>
@@ -154,7 +154,7 @@
 									<thead>
 										<tr>
 											<th>Nom</th>
-											<th>Article</th>
+											<th>Materiel</th>
 											<th>Date de reservation</th>
 											<th>Salles</th>
 											<th>Action</th>
@@ -168,7 +168,7 @@
 									<thead>
 										<tr>
 											<th>Name</th>
-											<th>Article</th>
+											<th>Materiel</th>
 											<th>Date de reservation</th>
 											<th>Salles</th>
 											<th>Action</th>

@@ -143,7 +143,7 @@
 									<th>Nom de l'emprunteur</th>
 									<th>Date d'emprunt</th>
 									<th>Materiels empruntés</th>
-									<th>Chambre</th>
+									<th>Salle</th>
 									<th >Action</th>
 								</tr>
 							</thead>

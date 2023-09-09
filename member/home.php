@@ -47,7 +47,7 @@ date_default_timezone_set('Asia/Manila');
 							<form class="form-horizontal client_reservation" action="" >
 								<fieldset>
 									<div class="form-group">
-										<label class="col-md-3 control-label" for="name">Articles (maximum de 5 articles)</label>
+										<label class="col-md-3 control-label" for="name">Materiels(maximum de 5 articles)</label>
 										<div class="col-md-9">
 											<select class="form-control input-lg borrowitem" name="reserve_item[]" multiple="multiple" required="required" style="width: 100%">
 												<option></option>

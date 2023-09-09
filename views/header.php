@@ -52,7 +52,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">SYSTÈME DE GESTION DU PARC INFORMATIQUE DE THIES</a>
+				<a class="navbar-brand" href="#"> GESTION DE PARC INFORMATIQUE ISEP THIES</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg><?php echo $_SESSION['admin_name']; ?><span class="caret"></span></a>

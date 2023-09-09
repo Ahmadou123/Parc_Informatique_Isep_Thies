@@ -50,7 +50,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Article empruntées
+						Materiels empruntées
 						</div>
 					</a>
 				</li>
@@ -60,7 +60,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Article retournées
+						Materiels retournées
                        </div>
 					</a>
 				</li>
@@ -73,7 +73,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Article
+				Materiels
 				</div>
 			</a>
 		</li>
@@ -141,7 +141,7 @@ include 'header.php';
 					<div class="panel panel-primary custom-panel">
 						<div class="panel-heading">
 							<i class="fa fa-plus-circle"></i>
-							Emprunter des articles
+							Emprunter des Materielss
 						</div>
 						<div class="panel-body">
 							<form class="frm_borrow">
@@ -152,7 +152,7 @@ include 'header.php';
 									</select>
 								</div>
 								<div class="form-group">
-									<label class="">Sélectionner les articles (maximum de 5 articles)</label>
+									<label class="">Sélectionner les Materielss (maximum de 5 Materielss)</label>
 									<select class="form-control input-lg borrowitem" name="borrowitem[]" multiple="multiple" required="required">
 										<option></option>
 									</select>

@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Articles empruntés
+							Materiels empruntés
 						</a>
 					</li>
 					<li>
@@ -53,7 +53,7 @@
 							<svg class="glyph stroked checkmark">
 								<use xlink:href="#stroked-checkmark"/>
 							</svg>
-							Articles retournés
+							Materiels retournés
 						</a>
 					</li>
 				</ul>
@@ -63,7 +63,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Article
+					Materiel
 				</a>
 			</li>
 			<li>

@@ -44,7 +44,7 @@
 							<thead>
 								<tr>
 									<th>Date de reservation</th>
-									<th>Article</th>
+									<th>Materiels</th>
 									<th>Attribution de salle</th>
 									
 									<th>Status</th>

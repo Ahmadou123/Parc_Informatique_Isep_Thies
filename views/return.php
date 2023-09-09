@@ -48,7 +48,7 @@
 					</li>
 					<li>
 						<a class="" href="borrow">
-						<div style="color: #e28743;">
+						<div style="color: #e28743;" >
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>

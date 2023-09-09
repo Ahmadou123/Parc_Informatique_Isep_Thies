@@ -135,7 +135,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="nav nav-pills">
-							<li ><a href="#new" data-toggle="tab" ><i class=""></i>&nbsp;&nbsp;Niveau</a></li>
+							<li ><a href="#new" data-toggle="tab" ><i class=""></i>&nbsp;&nbsp;Nouveau</a></li>
 							<li ><a href="#old" data-toggle="tab" ><i class=""></i>&nbsp;&nbsp;Ancien</a></li>
 							<li><a href="#lost" data-toggle="tab" ><i class=""></i>&nbsp;&nbsp;Perdu</a></li>
 							<li><a href="#damaged" data-toggle="tab" ><i class=""></i>&nbsp;&nbsp;Endommagé</a></li>

@@ -42,7 +42,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">SYSTÈME DE GESTION DE LABORATOIRE TIC</a>
+				<a class="navbar-brand" href="#"> GESTION DE PARC INFORMATIQUE</a>
 			</div>
 							
 		</div><!-- /.container-fluid -->
@@ -89,7 +89,7 @@
 						<input type="number" name="sid_number" class="form-control" required autocomplete="off">
 					</div>
 					<div class="form-group">
-						<label>Préenom</label>
+						<label>Prénom</label>
 						<input type="text" name="s_fname" class="form-control" required autocomplete="off">
 					</div>
 					<div class="form-group">
@@ -105,7 +105,7 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<label>Numer de telephone</label>
+						<label>Numero de telephone</label>
 						<input type="tel" name="s_contact" class="form-control" required autocomplete="off">
 					</div>
 					<div class="form-group">
@@ -132,11 +132,9 @@
 								<label>Année</label>
 								<select name="s_year" class="form-control" required>
 									<option selected disabled>Sélectionnez l'année</option>
-									<option>1st</option>
-									<option>2nd</option>
-									<option>3rd</option>
-									<option>4th</option>
-									<option>5th</option>
+									<option>1ére année</option>
+									<option>2éme année</option>
+									
 								</select>
 							</div>
 							<div class="col-md-6">
@@ -155,7 +153,7 @@
 				</form>
 
 				<form class="frm_faculty_sign hide">
-					<h4 class="">S'inscrire - Faculté</h4>
+					<h4 class="">S'inscrire - Metier</h4>
 					<hr>
 					<div class="form-group">
 						<label>Numero de l'école</label>
