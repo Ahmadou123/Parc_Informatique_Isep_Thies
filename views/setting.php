@@ -22,22 +22,12 @@
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
-<li>
-						<a class="" href="reservation">
-							<svg class="glyph stroked eye">
-								<use xlink:href="#stroked-eye"/>
-							</svg>
-							Reservations
-						</a>
-					</li>
-
-
 					<li>
 						<a class="" href="new">
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							Niveau
+							Nouveau
 						</a>
 					</li>
 					<li>
@@ -91,14 +81,7 @@
 				</a>
 			</li>
 			<?php if($_SESSION['admin_type'] == 1){ ?>
-			<li>
-				<a href="report">
-					<svg class="glyph stroked line-graph">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
-					</svg>
-					Graphique
-				</a>
-			</li>
+		
 			<li>
 				<a href="user">
 					<svg class="glyph stroked female user">
