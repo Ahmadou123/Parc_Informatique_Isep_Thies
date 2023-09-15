@@ -26,14 +26,7 @@ include 'header.php';
 				Transaction 
 			</a>
 			<ul class="children collapse" id="sub-item-1">
-				<li>
-					<a class="" href="reservation" style="color: #e28743;">
-						<svg class="glyph stroked eye">
-							<use xlink:href="#stroked-eye"/>
-						</svg>
-						Reservations
-					</a>
-				</li>
+				
 				<li>
 					<a class="" href="new" style="color: #e28743;">
 						<svg class="glyph stroked plus sign">

@@ -24,18 +24,6 @@
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					
-<li>
-						<a class="" href="reservation">
-						<div style="color: #e28743;">
-							<svg class="glyph stroked eye">
-								<use xlink:href="#stroked-eye"/>
-							</svg>
-							Reservations
-							</div>
-						</a>
-					</li>
-
-
 					<li class="">
 						<a class="" href="new">
 						<div style="color: #e28743;">

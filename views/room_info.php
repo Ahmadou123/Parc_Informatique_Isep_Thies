@@ -22,14 +22,7 @@ include 'header.php';
 					<span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down" style="color: #e28743;"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transaction 
 				</a>
 			<ul class="children collapse" id="sub-item-1">
-				<li>
-					<a class="" href="reservation" style="color: #e28743;">
-						<svg class="glyph stroked eye">
-							<use xlink:href="#stroked-eye"/>
-						</svg>
-						Reservations
-					</a>
-				</li>
+				
 				<li>
 					<a class="" href="new" style="color: #e28743;">
 						<svg class="glyph stroked plus sign">
